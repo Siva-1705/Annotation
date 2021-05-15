@@ -17,6 +17,7 @@ public class App
     	College college=context.getBean("colBean",College.class);
     	college.fun();
     	college.Info();
+    	System.out.println("adding for git testing");
     	context.close();
     	
     }
